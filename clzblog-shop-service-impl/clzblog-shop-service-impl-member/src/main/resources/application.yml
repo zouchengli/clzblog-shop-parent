@@ -1,12 +1,10 @@
-###服务启动端口号
 server:
   port: 8082
-###服务名称(服务注册到eureka名称)  
 spring:
-    application:
-        name: app-clzblog-member
-###服务注册到eureka地址
+  application:
+    name: app-clzblog-member
 eureka:
   client:
     service-url:
-           defaultZone: http://localhost:8080/eureka
+      defaultZone: http://localhost:8080/eureka
+    
