@@ -7,4 +7,12 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8080/eureka
-    
+swagger:
+  base-package: site.clzblog.application.member.service
+  title: "SpringCloud2.x build microservice member service interface"
+  description: "This description"
+  version: 0.0.1
+  terms-of-service-url: "https://www.clzblog.site"
+  contact:
+    name: chengli.zou
+    email: chengli.zou@gmail.com
