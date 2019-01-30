@@ -11,5 +11,6 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>clzblog-shop-basic-eureka</module>
+		<module>clzblog-shop-basic-zuul</module>
 	</modules>
 </project>
