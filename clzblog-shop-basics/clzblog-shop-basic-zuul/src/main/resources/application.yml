@@ -1,0 +1,17 @@
+server:
+  port: 80
+spring:
+  application:
+    name: app-clzblog-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8080/eureka
+zuul:
+  routes:
+    api-a:
+      path: /api/wechat/**
+      serviceId: app-clzblog-wechat
+    api-b:
+      path: /api/member/**
+      serviceId: app-clzblog-member
