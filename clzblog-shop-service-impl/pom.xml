@@ -18,5 +18,11 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.ctrip.framework.apollo/apollo-client -->
+		<dependency>
+			<groupId>com.ctrip.framework.apollo</groupId>
+			<artifactId>apollo-client</artifactId>
+			<version>1.0.0</version>
+		</dependency>
 	</dependencies>
 </project>
