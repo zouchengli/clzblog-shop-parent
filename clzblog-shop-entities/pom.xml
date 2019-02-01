@@ -12,5 +12,6 @@
 	<modules>
 		<module>clzblog-shop-entity-member</module>
 		<module>clzblog-shop-entity-wechat</module>
+		<module>clzblog-shop-entity-zuul</module>
 	</modules>
 </project>
